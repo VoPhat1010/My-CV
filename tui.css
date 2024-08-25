@@ -86,3 +86,37 @@
         transform: unset;
         border: none;
     }
+h3 {
+        border: 5px solid rgb(58, 215, 239); /* Thay đổi màu sắc và độ dày theo ý muốn */
+        padding: 10px; /* Thêm khoảng cách giữa nội dung và đường viền */
+        margin-bottom: 15px; /* Khoảng cách giữa các khung */
+        text-align: left; color: #e98e88;
+        display: grid;
+        flex-direction: column;
+        border: 5px solid #f2726a;
+        border-radius: 5px;
+        background-color: #242628;
+        padding: 15px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: relative;
+        transition: all 0.5s ease; /* Thêm hiệu ứng chuyển đổi mượt mà */
+    }
+    h3 ul {
+        list-style: disc; /* Hoặc `circle`, `square` tùy ý */
+        padding-left: 20px; /* Khoảng cách bên trái cho danh sách */
+        margin: 10px 0 0 0; /* Khoảng cách trên và dưới danh sách */
+    }
+
+    h3 ul li {
+        margin-bottom: 5px; /* Khoảng cách giữa các mục */
+    }
+    .container {
+        display: flex;
+        flex-direction: column
+    }
+    h3:hover {
+        background-color: #f0f0f0; /* Thay đổi màu nền khi hover */
+        transform: translateY(-10px); /* Đẩy tiêu đề lên khi hover */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Thay đổi bóng đổ khi hover */
+    }   
