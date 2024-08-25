@@ -20,8 +20,8 @@
     }
     .card{
         background-color: #242628;
-        width: 300px;
-        height: 475px;
+        width: 600px;
+        height: 700px;
         border-radius: 10px;
         text-align: center;
         overflow: hidden;
@@ -86,7 +86,7 @@
         transform: unset;
         border: none;
     }
-h3 {
+    h3 {
         border: 5px solid rgb(58, 215, 239); /* Thay đổi màu sắc và độ dày theo ý muốn */
         padding: 10px; /* Thêm khoảng cách giữa nội dung và đường viền */
         margin-bottom: 15px; /* Khoảng cách giữa các khung */
